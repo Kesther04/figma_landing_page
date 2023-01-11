@@ -1,0 +1,323 @@
+@media(max-width:850px){
+
+    .head-div{
+        width:100%;
+        height:auto;
+        border:1px solid red;
+    }
+    
+    .inner-head-div{
+        float: left;
+        width:100%;
+        height:auto;
+        overflow: hidden;
+        position: relative;
+        background: rgb(100, 46, 236);
+        border:0px solid green;
+        clip-path:polygon(
+            0 0,
+            100% 0,
+            100% 60%,
+            0 100%
+            );
+    }
+
+    header{
+        width:100%;
+        height:60px;
+        border-bottom: 1px solid gray;
+        padding-right: 30px;
+    }
+
+    .anch-div{
+        float: right;
+        padding:20px;
+    }
+    
+    .anch-div a{
+        padding:10px;
+    }
+
+
+    .first-sys-div{
+        color:white;
+        font-size: 20px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .first-main-div{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width:auto;
+        height:auto;
+        padding:30px;
+        align-items: center;
+    }
+
+    .o-fir-white{
+        width:auto;
+        padding:20px;
+        height:auto;
+       
+    }
+
+    .sec-main-div{
+    
+        width:auto;
+        height:auto;
+        text-align: center;
+        padding:30px;
+    }
+
+    .sec-white{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .thr-main-div{
+        width:auto;
+        height:auto;
+        padding:30px;
+        display:flex;
+        background: whitesmoke;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .thr-white{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sec-thr-white{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fth-main-div{
+        width:auto;
+        height:auto;
+        float: left;
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .inner-foot-div{
+        width:100%;
+        height:auto;
+        background: rgb(100, 46, 236);
+        overflow: hidden;
+        position: relative;
+        border:1px solid green;
+        clip-path:polygon(
+            0 20%,
+            100% 0,
+            100% 100%,
+            0 100%
+        );
+        color: white;
+    
+    }
+
+    .fir-foot{
+        margin-top: 100px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+
+    #msg-inp{
+        width:auto;
+        height:200px;
+        text-align: left;
+        top:0;
+        color:white;
+        background:rgba(130, 46, 255,0.5);
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
+
+@media(max-width:385px){
+
+    .head-div{
+        width:100%;
+        height:auto;
+        border:1px solid red;
+    }
+    
+    .inner-head-div{
+        float: left;
+        width:100%;
+        height:auto;
+        overflow: hidden;
+        position: relative;
+        background: rgb(100, 46, 236);
+        border:0px solid green;
+        clip-path:polygon(
+            0 0,
+            100% 0,
+            100% 60%,
+            0 100%
+            );
+    }
+
+    header{
+        width:100%;
+        height:60px;
+        border-bottom: 1px solid gray;
+        padding-right: 0px;
+    }
+
+    .anch-div{
+        float: left;
+        padding:20px;
+    }
+    
+    .anch-div a{
+        padding:10px;
+    }
+
+
+    .first-sys-div{
+        color:white;
+        font-size: 20px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .first-main-div{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width:auto;
+        height:auto;
+        padding:30px;
+        align-items: center;
+    }
+
+    .o-fir-white{
+        width:auto;
+        padding:20px;
+        height:auto;
+       
+    }
+
+    .sec-main-div{
+    
+        width:auto;
+        height:auto;
+        text-align: center;
+        padding:30px;
+    }
+
+    .sec-white{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .thr-main-div{
+        width:auto;
+        height:auto;
+        padding:30px;
+        display:flex;
+        background: whitesmoke;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .thr-white{
+        width:100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .sec-thr-white{
+        display: flex;
+        width:100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .fth-main-div{
+        width:auto;
+        height:auto;
+        float: left;
+        padding:20px;
+        display:flex;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .foot-div{
+        width:100%;
+        height:auto;
+    }
+    
+    .inner-foot-div{
+        width:100%;
+        height:auto;
+        background: rgb(100, 46, 236);
+        overflow: hidden;
+        position: relative;
+        border:1px solid green;
+        clip-path:polygon(
+            0 20%,
+            100% 0,
+            100% 100%,
+            0 100%
+        );
+        color: white;
+    
+    }
+
+    .fir-foot{
+        margin-top: 100px;
+        padding: 60px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+        text-align: center;
+    }
+
+    #msg-inp{
+        width:auto;
+        height:200px;
+        text-align: left;
+        top:0;
+        color:white;
+        background:rgba(130, 46, 255,0.5);
+        border-radius: 10px;
+        padding: 10px;
+    }
+}
