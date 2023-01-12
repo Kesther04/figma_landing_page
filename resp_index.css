@@ -188,16 +188,21 @@
         border-bottom: 1px solid gray;
         padding-right: 0px;
         padding-left: 0px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
     }
     
     header img{
         margin:5px;
+        width:10%;
     }
     
 
     .anch-div{
-        float: right;
-        padding:10px;
+        float: left;
+        padding:5px;
+        width:90%;
     }
     
     .anch-div a{
