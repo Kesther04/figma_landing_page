@@ -3,7 +3,6 @@
     .head-div{
         width:100%;
         height:auto;
-        border:1px solid red;
     }
     
     .inner-head-div{
@@ -165,7 +164,6 @@
     .head-div{
         width:100%;
         height:auto;
-        border:1px solid red;
     }
     
     .inner-head-div{
@@ -189,11 +187,17 @@
         height:60px;
         border-bottom: 1px solid gray;
         padding-right: 0px;
+        padding-left: 0px;
     }
+    
+    header img{
+        margin:5px;
+    }
+    
 
     .anch-div{
-        float: left;
-        padding:20px;
+        float: right;
+        padding:10px;
     }
     
     .anch-div a{

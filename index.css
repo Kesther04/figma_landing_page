@@ -40,6 +40,11 @@ header{
     height:60px;
     border-bottom: 1px solid gray;
     padding-right: 50px;
+    padding-left: 250px;
+}
+
+header img{
+    margin:10px;
 }
 
 .anch-div{
