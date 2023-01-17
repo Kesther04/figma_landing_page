@@ -16,7 +16,7 @@
         clip-path:polygon(
             0 0,
             100% 0,
-            100% 60%,
+            100% 65%,
             0 100%
             );
     }
@@ -63,18 +63,45 @@
        
     }
 
+    .o-fir-white h1{
+        /* A Better Team with a good and Quality Service */
+        
+            width: auto;
+        
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 42px;
+        
+            color: #3C3C3C;
+        
+        /* Inside auto layout */
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+    }
+    
     .sec-main-div{
     
         width:auto;
         height:auto;
         text-align: center;
-        padding:30px;
+        padding:10px;
     }
 
     .sec-white{
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+
+    .sec-white div{
+        padding:5px;
+        box-shadow: 0px 0px 10px 0px gray;
+        border-top:4px solid rgb(100, 46, 236);
+        border-radius: 5px;    
+        margin:10px;
     }
 
     .thr-main-div{
@@ -103,6 +130,24 @@
         text-align: center;
     }
 
+    .sec-thr-white h1{
+        /* What They Think of Logix */
+    
+        width: auto;
+        height: 155px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 62px;
+        color: #3C3C3C;
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
     .fth-main-div{
         width:auto;
         height:auto;
@@ -114,6 +159,18 @@
         align-items: center;
         justify-content: center;
     }
+
+
+    .fth-main-div h1{
+        width: auto;
+        height: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #3C3C3C;
+    }
+    
 
     .foot-div{
         width:100%;
@@ -232,7 +289,27 @@
         width:auto;
         padding:20px;
         height:auto;
-       
+    }
+
+    
+
+    .o-fir-white h1{
+    /* A Better Team with a good and Quality Service */
+    
+        width: auto;
+    
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 42px;
+    
+        color: #3C3C3C;
+    
+    /* Inside auto layout */
+        flex: none;
+        order: 1;
+        align-self: stretch;
+        flex-grow: 0;
     }
 
     .sec-main-div{
@@ -240,13 +317,22 @@
         width:auto;
         height:auto;
         text-align: center;
-        padding:30px;
+        padding:0px;
     }
 
     .sec-white{
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
+        justify-content: space-evenly;
+    }
+
+    .sec-white div{
+    
+        padding:5px;
+        box-shadow: 0px 0px 10px 0px gray;
+        border-top:4px solid rgb(100, 46, 236);
+        border-radius: 5px;    
+        margin:10px;
     }
 
     .thr-main-div{
@@ -275,6 +361,24 @@
         text-align: center;
     }
 
+    .sec-thr-white h1{
+        /* What They Think of Logix */
+    
+        width: auto;
+        height: 155px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 62px;
+        color: #3C3C3C;
+        /* Inside auto layout */
+    
+        flex: none;
+        order: 0;
+        align-self: stretch;
+        flex-grow: 0;
+    }
+
     .fth-main-div{
         width:auto;
         height:auto;
@@ -286,6 +390,18 @@
         align-items: center;
         justify-content: center;
     }
+
+
+    .fth-main-div h1{
+        width: auto;
+        height: auto;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 62px;
+        color: #3C3C3C;
+    }
+    
 
     .foot-div{
         width:100%;
